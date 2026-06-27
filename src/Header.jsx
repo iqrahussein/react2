@@ -1,7 +1,13 @@
-const Header=()=>{
+const Usercard=(props)=>{
   return(
-    <h1> This is header </h1>
+    <>
+     <h1> your Name is {props.Username}</h1>
+      <h1> your email is {props.Email}</h1>
+
+    </>
+   
+  
   )
 }
 
-export default Header;
+export default Usercard;

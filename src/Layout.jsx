@@ -1,16 +1,19 @@
-import Header from "./Header";
-import Footer from "./Footer";
-import Blog from "./Blog"
+import Header from "./Header"
 
-const Layout=()=>{
+const App=()=>{
+  const UserName ="Hamdi"
+  const Email ="iqra@123"
+
   return(
     <>
-    <Header></Header>
-    <Blog/>
-    <Footer></Footer>
+    <Header 
+    Username={UserName}
+    Email ={Email}
+    ></Header>
+    <h1>hello world</h1>
+
     </>
-    
   )
 }
 
-export default Layout;
+export default App;
