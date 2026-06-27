@@ -1,9 +1,8 @@
-import Usercard from './Usercard'
+import Layout from './Layout'
 function App(){
   return(
     <>
-      <Usercard/>
-      <h1>hello world</h1> 
+      <Layout/>
     </>
    
   )
