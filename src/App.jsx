@@ -1,8 +1,8 @@
-import Layout from './Layout'
+import Greeting from './Greeting'
 function App(){
   return(
     <>
-      <Layout/>
+      <Greeting/>
     </>
    
   )
